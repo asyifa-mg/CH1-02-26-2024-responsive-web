@@ -1,0 +1,43 @@
+/*css untuk screen dibawah atau setara dengan 600px*/
+h1{
+    font-size: 30px;
+    color: blue;
+}
+@media (max-width:600px)
+{
+    h1{
+        font-size: 6px;
+        color: yellow;
+    }
+}
+
+
+@media (orientation:landscape) and (max-width:600px)
+{
+    h1{
+        color: red;
+    } 
+}
+@media (max-width:600px){
+.card{
+    width: 100%;
+    display: black;
+    text-align: justify;
+}
+body{
+    font-family: "Merriweather,serif";
+}
+}
+.left-section{
+    width: 10px;
+}
+
+.left-section img{
+    object-fit: cover;
+}
+.right-section{
+    float: right;
+}
+.right-section img{
+    object-fit: cover;
+}
